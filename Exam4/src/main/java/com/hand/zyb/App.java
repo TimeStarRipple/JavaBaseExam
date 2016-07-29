@@ -20,18 +20,18 @@ public class App
     	sn.setList(ProduceNumber.produceListNumber(50));
     	sn.setMap(ProduceNumber.calculateMap(sn.getList()));
     	
-        System.out.println( "随机生成 50 个小于 100 的数,分别为:" );
+        System.out.print( "随机生成 50 个小于 100 的数,分别为:" );
         for (Integer integer : sn.getList()) {
-			System.out.print(integer);
+			System.out.print(integer + ",");
 		}
         System.out.println();
         
-        System.out.println("Map 中的数据为：");
+        System.out.print("Map 中的数据为：");
         System.out.println(sn.getMap());
         
         SortHelper.sortStorageNumber(sn);
         
-        System.out.println("排序后的 Map 为：");
+        System.out.print("排序后的 Map 为：");
         System.out.println(sn.getMap());
         
     }

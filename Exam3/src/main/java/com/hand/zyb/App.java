@@ -21,6 +21,6 @@ public class App {
 		myDate.setDay(Integer.parseInt(strDateArr[2]));
 
 		int dayNumber = DayHelper.calculateDay(myDate);
-		System.out.print("你输入的日期为当年的第" + dayNumber + "天");
+		System.out.println("你输入的日期为当年的第" + dayNumber + "天");
 	}
 }

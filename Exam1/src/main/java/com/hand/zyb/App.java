@@ -23,7 +23,7 @@ public class App
 			}
 		}
         
-        System.out.println("101-200 间总共有" + count + "个素数, 分别是：");
+        System.out.print("101-200 间总共有" + count + "个素数, 分别是：");
         for (Integer integer : list) {
 			System.out.print(integer + ",");
 		}
